@@ -1,0 +1,118 @@
+extends ./cisslbase
+
+block body
+    .ui.inverted.huge.borderless.fixed.fluid.indigo.menu
+        a.header.item Project name
+        .right.menu
+            .item
+                .ui.small.input
+                    input(placeholder='Search...')
+            a.item Dashboard
+            a.item Settings
+            a.item Profile
+            a.item Help
+    .ui.grid
+        .ui.row
+            #sidebar.column
+                .ui.inverted.vertical.stackable.fluid.menu
+                    .item
+                        .ui.icon.input
+                            input(type='text', placeholder='Search mail...')
+                            i.search.icon                
+                    a.item
+                        span 
+                            i.circular.home.icon
+                        |   Dashboard
+                    div.ui.item
+                        div.header
+                            span
+                                i.circular.wrench.icon
+                                |  Maintenance
+                        div.menu
+                            
+                                    a.item#department(href="/admin/maintenance/Departments") 
+                                        span
+                                            i.circle.outline.icon
+                                        |Department
+                                    a.item#sections(href="/admin/maintenance/sections")
+                                        span
+                                            i.circle.outline.icon
+                                        |Sections
+                                    a.item#subjects(href="/admin/maintenance/Subjects")
+                                        span
+                                            i.circle.outline.icon
+                                        |Subject
+                                    a.item#teachers(href="/admin/maintenance/Teachers")
+                                        span
+                                            i.circle.outline.icon
+                                        |Teachers 
+                                    a.item#teachertype(href="")
+                                        span
+                                            i.circle.outline.icon
+                                        |Teacher Types
+                                    a.item#usertype(href="/admin/maintenance/UserType")
+                                        span
+                                            i.circle.outline.icon
+                                        |User Type
+                                    a.item#yearlevel(href="/admin/maintenance/YearLevel")
+                                        span
+                                            i.circle.outline.icon
+                                        |Year Level
+                    div.item
+                        div.header Transactions
+                        div.menu
+                            a.item
+                                span
+                                    i.circle.outline.icon 
+                                |Enrollment
+                            a.item
+                                span
+                                    i.circle.outline.icon 
+                                |Sectioning
+
+                            a.item
+                                span
+                                    i.circle.outline.icon
+                                |Schedule
+                            a.item
+                                span
+                                    i.circle.outline.icon 
+                                |Teacher Assignment
+                            a.item
+                                span
+                                    i.circle.outline.icon 
+                                |Events
+                    div.item
+                        div.header Reports
+                        div.menu
+                            a.item
+                                span
+                                    i.circle.outline.icon 
+                                |Sections
+                            a.item 
+                                span
+                                    i.circle.outline.icon
+                                |Schedules
+                            a.item
+                                span
+                                    i.circle.outline.icon 
+                                |Teachers
+                            a.item
+                                span
+                                    i.circle.outline.icon 
+                                |Event List
+                    div.item
+                    a.item
+                        span
+                            i.circular.mail.outline.icon 
+                        |Messages
+                    a.item
+                        span
+                            i.circular.cog.icon 
+                        |Settings
+                    a.item(href="/logout")
+                        span
+                            i.circular.sign.out.icon
+                        |Logout
+            block content
+                            

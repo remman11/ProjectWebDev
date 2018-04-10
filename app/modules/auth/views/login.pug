@@ -1,0 +1,78 @@
+extends ../../../templates/cisslmaster
+
+block append main
+    div.ui.hidden.divider
+    div.ui.hidden.divider
+    div.ui.center.aligned.grid
+        .column
+            h2.ui.indigo.image.header Log-in to your account
+            form.ui.large.form(action="/login" method="POST")
+                .ui.stacked.segment
+                    .field
+                        .ui.left.icon.input
+                            i.user.icon
+                            input(name="username" , placeholder='Username', type='text')
+                    .field
+                        .ui.left.icon.input
+                            i.lock.icon
+                            input(name='password', placeholder='Password', type='password')
+                    button.ui.fluid.large.green.submit.button(type="submit")
+                        | Login
+                .ui.error.message
+            .ui.message
+                |    Need More Information?
+                a(href='/contact')  Contact Us
+    style(type='text/css').
+        body {
+            background: linear-gradient(to top,#93A5CF, #E4EFE9);
+        }
+        body > .grid {
+        height: width;
+        }
+        .image {
+        margin-top: -100px;
+        }
+        .column {
+        max-width: 450px;
+        }
+        #add{
+            padding-top: -50px;
+        }
+    script.
+        {
+            var eo = document.getElementById("login");
+            eo.classList.add("active");
+            
+        }
+    script.
+        $('.ui.form').form({
+                fields: {
+                    username: {
+                        identifier  : 'username',
+                        rules: [
+                            {
+                                type   : 'empty',
+                                prompt : 'Please enter your e-mail'
+                            },
+                        ]
+                    },
+                    password: {
+                        identifier  : 'password',
+                        rules: [
+                            {
+                                type   : 'empty',
+                                prompt : 'Please enter your password'
+                            },
+                            {
+                                type   : 'length[5]',
+                                prompt : 'Your password must be at least 5 characters'
+                            }
+                        ]
+                    }
+                }
+            });
+        
+
+
+    
+    

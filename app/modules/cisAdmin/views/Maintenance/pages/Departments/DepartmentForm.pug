@@ -1,0 +1,39 @@
+extends ../../../../../../templates/admin
+
+block append content
+    #content.column
+        .ui.grid
+            .row
+                label.ui.indigo.massive.label
+                    span
+                        i.wrench.icon
+                        |&nbsp; Department
+                        small#small &nbsp;&nbsp;&nbsp; Maintenance
+            .ui.divider
+            .row
+                div.ui.segment.customsegment
+                    label.ui.indigo.huge.label
+                        span
+                            i.add.icon
+                            |&nbsp; #{form ? 'Edit' : 'Add'}
+                            small#small &nbsp;&nbsp;&nbsp; Department
+                    div.ui.hidden.divider
+                    div.ui.hidden.divider
+                    form.ui.fluid.form(method="POST" action=`/admin/maintenance/Departments${form ? `/${form.intDepartmentID}?_method=PUT` : '/new'}`)
+                        .field.fluid
+                            label.label Department Name
+                            input(type='text' name="dname" placeholder='Department Name' value=form ? form.strDepartmentName : '')
+                        input(type="hidden" name="count" value=ID)
+                        div.ui.hidden.divider
+                        div.ui.hidden.divider
+                        a.ui.orange.button(href="/admin/maintenance/Departments")
+                            i.left.arrow.icon
+                            | Back
+                        button.ui.green.button(type="submit")
+                            i(class=form ? "sync icon" : "add icon")
+                            | #{form ? 'Update' : 'Add'}
+            script.
+                {
+                    var eo = document.getElementById("department");
+                    eo.classList.add("active");
+                }

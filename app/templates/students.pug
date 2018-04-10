@@ -1,0 +1,48 @@
+extends ./cisslbase
+block body
+
+    //tang ina ako nag code nito hindi to templated
+    div.ui.big.vertical.inverted.left.fixed.menu(style="overflow-y: scroll;")
+        div.ui.hidden.divider
+        div.ui.hidden.divider
+        div.ui.hidden.divider 
+        a.item
+            .ui.icon.input
+                input(type='text', placeholder='Search mail...')
+                i.search.icon                
+        a.item
+            span 
+                i.circular.home.icon
+            |Dashboard
+        a.item
+            span
+                i.circular.calendar.icon
+            |Calendar
+        a.item
+            span
+                i.circular.mail.outline.icon 
+            |Section
+        a.item
+            span
+                i.circular.mail.outline.icon 
+            |Schedule
+        div.item
+        div.ui.hidden.divider
+        a.item
+            span
+                i.circular.mail.outline.icon 
+            |Messages
+        a.item
+            span
+                i.circular.cog.icon 
+            |Settings
+        a.item(href="/logout")
+            span
+                i.circular.sign.out.icon
+            |Logout
+        block content   
+        script.
+            $('.ui.accordion').accordion();
+            $('#butt').click
+                .sidebar('show')
+            ;

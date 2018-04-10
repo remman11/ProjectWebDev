@@ -1,0 +1,36 @@
+extends ../../../../../../../templates/admin
+
+block append content
+    #content.column
+        .ui.grid
+            .row
+                label.ui.indigo.massive.label
+                    span
+                        i.info.circle.icon
+                        |&nbsp; Grade 8 Sections
+                        small#small &nbsp;&nbsp;&nbsp; Maintenance
+            .ui.divider
+            .row
+                a.ui.green.button 
+                    span
+                        i.add.icon
+                        |Add Sections    
+                table.ui.single.line.center.aligned.striped.selectable.padded.celled.fixed.table
+                    thead
+                        tr
+                            th Name 
+                            th Description
+                            th Actions
+                    tbody
+                        each section in sections
+                            tr
+                                td #{section.strSectionName}
+                                td #{section.strSectionDesc}
+                                td
+                                    a.ui.blue.compact.button() Edit
+                                    a.ui.red.compact.button(href="") Delete
+            script.
+                {
+                    var eo = document.getElementById("sections");
+                    eo.classList.add("active");
+                }

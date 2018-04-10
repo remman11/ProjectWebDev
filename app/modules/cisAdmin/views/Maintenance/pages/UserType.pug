@@ -1,0 +1,34 @@
+extends ../../../../../templates/admin
+
+block append content
+    #content.column
+        .ui.grid
+            .row
+                label.ui.indigo.massive.label
+                    span
+                        i.wrench.icon
+                        |&nbsp; User Types
+                        small#small &nbsp;&nbsp;&nbsp; Maintenance
+            .ui.divider
+            .row
+                a.ui.green.button 
+                    span
+                        i.add.icon
+                        |Add User Types    
+                table.ui.single.line.center.aligned.striped.selectable.padded.celled.fixed.table
+                    thead
+                        tr
+                            th Name 
+                            th Actions
+                    tbody
+                        each user in users
+                            tr
+                                td #{user.strUserTypeName}
+                                td
+                                    a.ui.blue.compact.button() Edit
+                                    a.ui.red.compact.button(href="") Delete
+            script.
+                {
+                    var eo = document.getElementById("usertype");
+                    eo.classList.add("active");
+                }

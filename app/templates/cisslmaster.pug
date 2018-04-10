@@ -1,0 +1,35 @@
+extends ./cisslbase
+
+block body
+    div#main
+        div.ui.hidden.divider
+        #maindiv.ui.stackable.grid.container
+            div.ui.hidden.divider
+            div.row
+                img(src="/assets/Special/logo.png" height="100px" width="100px")
+                h3.ui.large.header
+                    | &nbsp; &nbsp; &nbsp;CONCEPCION INTEGRATED SCHOOL SECONDARY LEVEL
+                div.ui.indigo.seven.item.stackable.inverted.menu
+                    a#home.item(href="/") Home
+                    a#mission.item(href="/missionandvision") Mission & Vision
+                    a#rules.item(href="/rules") Rules
+                    a#news.item(href="/news") News Blog
+                    a#calendar.item(href="/calendar") Calendar of Activities
+                    a#contact.item(href="/contact") Contact
+                    a#login.item(href="/login") Login
+    
+    block main
+    append head
+        //Bootstrap
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.bundle.js")
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js")
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.js")
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.min.js")
+
+        // bootstrap
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap.min.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-grid.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-grid.min.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-reboot.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css")

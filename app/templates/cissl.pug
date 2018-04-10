@@ -1,0 +1,75 @@
+//- This now serves as the base template, even for the master
+
+html
+    head
+        
+        title#title Concepcion Integrated School Secondary Level
+
+        //jQuery
+        script(src="/assets/jQuery/jquery.js")
+        script(src="/assets/jQuery/jquery.min.js")
+        
+        script#loose(language='javascript').
+            var titletext="CISSL"
+            var repeat=true; // SET TO true TO REPEAT, false TO "TYPE" OUT TITLE ONLY ONCE.
+            set=setTimeout;
+            var index=0;
+            function scrolltitle(){
+            if(index<=titletext.length){
+            document.title=titletext.substring(0,index);
+            index++;
+            set('scrolltitle()', 500);
+            }else{
+            index=0;
+            if(repeat)set('scrolltitle()',1000);
+            }}
+            window.onload=function(){
+            if(!document.layers)set('scrolltitle()',1000);
+            }
+
+        // styles
+        //Semantic-UI
+
+        script(src="/assets/Semantic-UI-CSS-master/semantic.js")
+        script(src="/assets/Semantic-UI-CSS-master/semantic.min.js")
+        
+        //Bootstrap
+
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.bundle.js")
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js")
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.js")
+        script(src="/assets/Bootstrap-4.0.0-dist/js/bootstrap.min.js")
+        // stylesheets
+        //Semantic-UI
+
+        link(rel="stylesheet" href="/assets/Semantic-UI-CSS-master/semantic.css")
+        link(rel="stylesheet" href="/assets/Semantic-UI-CSS-master/semantic.min.css")
+
+        // bootstrap
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap.min.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-grid.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-grid.min.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-reboot.css")
+        link(rel="stylesheet" href="/assets/Bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css")
+        
+        //font awesome
+        link(rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css")
+
+
+
+        link(href='http://fonts.googleapis.com/css?family=Arvo', rel='stylesheet', type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Basic', rel='stylesheet', type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Basic', rel='stylesheet', type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Play', rel='stylesheet', type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Jockey+One', rel='stylesheet', type='text/css')
+
+
+        link(href="/assets/Special/Rules.css" rel="stylesheet")
+        link(href="/assets/Special/Vision.css" rel="stylesheet")
+        link(href="/assets/Special/News.css" rel="stylesheet")
+        link(href="/assets/Special/Calendar.css" rel="stylesheet")
+        link(href="/assets/Special/Contact.css" rel="stylesheet")
+        link(href="/assets/Special/style.css" rel="stylesheet")
+    body#body
+        block body

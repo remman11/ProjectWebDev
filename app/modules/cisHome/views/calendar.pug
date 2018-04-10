@@ -1,0 +1,19 @@
+extends ../../../templates/cisslmaster
+
+block append main
+    div.ui.container
+        div.ui.hidden.divider
+        .ui.segment
+            div.ui.top.attached.large.indigo.label Calendar
+
+            h5 No Data Available
+
+    script.
+        {
+            var eo = document.getElementById("calendar");
+            eo.classList.add("active");
+        }
+        
+        
+        
+        

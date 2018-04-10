@@ -1,0 +1,48 @@
+extends ../../../../../../templates/admin
+
+block append content
+    #content.column
+        .ui.grid
+            .row
+                label.ui.indigo.massive.label
+                    span
+                        i.wrench.icon
+                        |&nbsp; Sections
+                        small#small &nbsp;&nbsp;&nbsp; Maintenance
+            .ui.divider
+            .row
+                div.center.aligned
+                    div.ui.one.stackable.black.cards
+                        a(href="/admin/maintenance/Sections/Grade7").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header Grade 7 List of Sections
+                                div.meta
+                                    span.category &nbsp; Sections
+                        a(href="/admin/maintenance/Sections/Grade8").ui.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header Grade 8 List of Sections
+                                div.meta
+                                    span.category &nbsp; Sections
+                        a(href="/admin/maintenance/Sections/Grade9").ui.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header Grade 9 List of Sections
+                                div.meta
+                                    span.category &nbsp; Sections
+                        a(href="/admin/maintenance/Sections/Grade10").ui.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header Grade 10 List of Sections
+                                div.meta
+                                    span.category &nbsp; Sections
+            script.
+                {
+                    var eo = document.getElementById("sections");
+                    eo.classList.add("active");
+                }

@@ -1,0 +1,55 @@
+//- This now serves as the base template, even for the master
+
+html
+    head    
+        
+        title Concepcion Integrated School Secondary Level
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='msapplication-TileColor', content='#ffffff')
+        meta(name='msapplication-TileImage', content='/assets/Icons/ms-icon-144x144.png')
+        meta(name='theme-color', content='#ffffff')
+        
+        // Tell the browser to be responsive to screen width
+        meta(content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', name='viewport')
+        
+
+        //scripts
+        // Jquery it is Necessary For the other scripts to run 
+        
+        script(src="/assets/jQuery/jquery.js")
+        script(src="/assets/jQuery/jquery.min.js")
+                
+        //Semantic-UI
+
+        script(src="/assets/Semantic-UI-CSS-master/semantic.js")
+        script(src="/assets/Semantic-UI-CSS-master/semantic.min.js")
+        
+        // stylesheets
+
+        //Data Tables
+
+        link(rel='stylesheet', href='/assets/admin-lte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css')
+
+        //
+            AdminLTE Skins. Choose a skin from the css/skins
+            folder instead of downloading all of them to reduce the load.
+        link(rel='stylesheet', href='/assets/admin-lte/dist/css/skins/skin-tugboat.css')
+        link(rel='stylesheet', href='/assets/admin-lte/dist/css/skins/skin-blue.css')
+
+       
+
+
+        //
+
+        link(rel="stylesheet" href="/assets/Semantic-UI-CSS-master/semantic.css")
+        link(rel="stylesheet" href="/assets/Semantic-UI-CSS-master/semantic.min.css")
+
+        
+        //font awesome
+        link(rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css")
+        //overrides
+        link(rel="stylesheet" href="/assets/Special/addons.css")
+        link(rel="stylesheet" href="/assets/style.css")
+    body.template.original
+        block body

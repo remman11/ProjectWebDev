@@ -1,0 +1,80 @@
+extends ../../../../../templates/admin
+
+block append content
+    #content.column
+        .ui.grid
+            .row
+                label.ui.indigo.massive.label
+                    span
+                        i.wrench.icon
+                        |&nbsp; Sections
+                        small#small &nbsp;&nbsp;&nbsp; Maintenance
+            .ui.divider
+            .row
+                div.middle.aligned
+                    div.ui.two.stackable.black.cards
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header AP Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header English Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header ESP Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header Filipino Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header MAPEH Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header Math Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header Science Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        a(href="/admin/maintenance/Teachers/AP").ui.massive.raised.card
+                            div.content
+                                p &nbsp; Concepcion Integrated School
+                            div.extra.content
+                                div.header TLE Department
+                                div.meta
+                                    span.category &nbsp; Teachers
+                        
+                        
+                        
+                        
+            script.
+                {
+                    var eo = document.getElementById("sections");
+                    eo.classList.add("active");
+                }
