@@ -1,0 +1,656 @@
+/*******************************
+         CSS OVERRIDES
+*******************************/
+.body{
+  background-image: url(../Faculty/50ShadesG.png);
+  height: width;
+  background-attachment: absolute;
+  background-size: cover;
+  background-position: center top;
+  background-position-x: center;
+  background-position-y: top;
+  background-color: #000000;
+  width: 100%;
+  top: 0;
+  height: 450px;
+}
+.boy{
+  background-image: url(../Faculty/SemanticG.png);
+  height: width;
+  background-attachment: absolute;
+  background-size: cover;
+  background-position: center top;
+  background-position-x: center;
+  background-position-y: top;
+  background-color: #000000;
+  width: 100%;
+  top: 0;
+  height: 450px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.body{
+  background-image: url(../Faculty/DuskG.png);
+  height: width;
+  background-attachment: absolute;
+  background-size: cover;
+  background-position: center top;
+  background-position-x: center;
+  background-position-y: top;
+  background-color: #000000;
+  width: 100%;
+  top: 0;
+  height: 450px;
+}
+.can
+{
+  border: 1px solid #d3d3d3;
+  background-image: url(`../files/EYENET.png`);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.bo{
+bottom: 0px;
+}
+.seg {
+  position: relative;
+  background: #FFFFFF;
+  margin: 0em;
+  padding: 0em 0em;
+}
+.contentscroll
+{
+  
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+    
+  margin: 0em;
+  border-radius: 0.28571429rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);overflow: scroll;
+  background-color: black;
+}
+.s.adjusted
+{
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  margin: 1rem 5em;
+  margin-bottom: 50px;
+  padding: 0em 0em;
+  border-radius: 0.28571429rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+.b-adjusted
+{
+  padding-bottom: 2em;
+}
+.front
+{
+  z-index: 200;
+}
+.ui.segment:first-child { 
+  margin-top: 0em;
+}
+
+.ui.segment:last-child {
+  margin-bottom: 4em;
+}
+.ping
+{
+  top: 80px;
+}
+.mleft{
+  padding-left: 50px; 
+}
+.ml
+{
+  padding-left: 20px;
+}
+.mle
+{
+  margin-left: 20px;
+}
+.lm
+{
+  padding-right: 20px;
+}
+.tp
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bc
+{
+  border-color: white;
+}
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.rightp
+{
+  margin-left: 250px;
+}
+
+.aright{
+  margin-left: 180px;
+}
+.righto{
+  margin-bottom: 180px;
+}
+.pushleft
+{
+  margin-right: 200px;
+}
+.borders
+{
+  border-bottom: 8px solid rgba(34, 36, 38, 0.15);
+}
+.mtp{
+  margin-top: 150px;
+}
+.ftp
+{
+  position: fixed;
+  left: 0px;
+  top: 300px;
+}
+.mtop
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.adjustright
+{
+  float: right;
+}
+.adjustleft
+{
+  float: left;
+}
+.in
+{
+  display: inline;
+}
+.lcent
+{
+  padding-left: 350px;
+}
+.marginbottom{
+  margin-bottom: 30px;
+}
+.inlined
+{
+  display: inline;
+}
+.marg
+{ 
+  margin-left: 970px;
+}
+.bzz
+{
+  position: absolute;  
+  top: 95px;
+  left: 650px;
+}
+.wrap
+{
+  padding-left: 1275px;
+}
+.wrapper
+{
+  padding-left: 950px;
+}
+.warp2{
+  padding-left: 732px;
+}
+
+.warp3{
+  padding-left: 965px;
+}
+.warp
+{
+  padding-left: 1020px;
+}
+.t-align
+{
+  text-align: center;
+}
+.clear
+{
+  width: 1000px;
+  margin-right: -150px;
+}
+.fontJockey
+{
+  font-family: 'Jockey One', 'Basic', sans-serif;
+
+}
+.tShadow
+{
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.wShadow
+{
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.815);
+}
+.size{
+  font-size: 80px;
+}
+.fontLato
+{
+  font-family: 'Lato', 'Basic', sans-serif;
+}
+.height1p{
+  padding-top: 120px;
+}
+.sHeight{
+  padding-top: 200px;
+}
+.sHeight1{
+  padding-top: 100px;
+}
+.sHeight2{
+  padding-top: 250px;
+}
+.sheight1p1{
+  padding-top: 120px;
+}
+.height12
+{
+  padding-top: 120px;
+}
+.height7{
+  padding-top: 70px;
+}
+.height4{
+  padding-top: 40px;
+}
+.height5{
+  padding-top: 50px;
+}
+.height3{
+  padding-top: 30px;
+}
+.height2{
+  padding-top: 20px;
+}
+.mheight{
+  margin-top: 50px;
+}
+.mbot{
+  margin-bottom: 50px; 
+}
+.fright{
+  position-x: center;
+}
+.bottom{
+  padding-bottom: 60px; 
+}
+.pright{
+  padding-left: 50px;
+}
+.pright7{
+  padding-left: 70px;
+}
+.pright10
+{
+  padding-left: 100px;
+}
+.pright11
+{
+  padding-left: 110px;
+}
+.pright12
+{
+  padding-left: 150px;
+}
+.prightI
+{
+  padding-left: 880px;
+}
+.prightA
+{
+  padding-left: 900px;
+}
+.trsp
+{
+  background: transparent;
+
+}
+
+.cull{
+  background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
+}
+
+.main
+{
+  background-image: url(../Faculty/DuskG.png);
+  height: width;
+  height: 500px;
+  width: 100%;
+  background-position: center top;
+  background-position-x: center;
+  background-position-y: top;
+}
+
+.wTcolor
+{
+  color: white;
+}
+
+.mbnone{
+  margin: 0px;
+}
+.mg
+{
+  margin-top: 10px;
+}
+.eheight
+{
+  width: 1200px; 
+}
+.emarg1
+{
+  margin-left: 300px;
+}
+.indexer
+{
+  z-index: 100; 
+}
+.eh2
+{
+  height: 100px;
+  width: 10px;
+}
+.margt1
+{
+  margin-top: 90px;
+}
+
+.margib
+{
+  margin-bottom: 0px;
+}
+.marginauto
+{
+  margin: 80px auto;
+}
+.margb
+{
+  margin-bottom: 5px;
+}
+.padb
+{
+  padding-bottom: 20px;
+}
+.padd
+{
+  padding-top: 80px
+}
+.padl
+{
+  margin-left: 100px;
+}
+.maro
+{
+  margin-top: 30px;
+}
+.omar
+{
+  padding-top: 20px;
+}
+.paddd
+{
+  padding-top: 50px;
+}
+.mar
+{
+  margin-top: 10px;
+}
+.logmodal{
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  margin: 0rem 0em;
+  padding: 0em 0em;
+  border-radius: 0.28571429rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+.cleft
+{
+  margin-right: 10px;
+}
+.lheight{
+
+  height: 500px;
+} 
+.paddingzxc{
+  padding-left: 50px;
+}
+.marga{
+  margin: 0px auto;
+}
+.exB{
+  padding-top: 50px;
+}
+.tw
+{
+  padding-top: 20px;
+}
+.you{
+  padding-left: 50px;
+}
+.pd{
+  padding-top: 20px;
+}
+.pdnim{
+  padding-left: 20px;
+  padding-right:20px;
+}
+.adjuster
+{
+  margin-top: 50px;
+}
+.indent
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.at
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+.ugh
+{
+  margin-left: 280px;
+}
+.ugh2
+{
+  padding-left: 275px;
+}
+.fleft
+{
+  float: left;
+}
+.con
+{
+  margin: 0px auto; 
+}
+.fon
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.fright
+{
+  float: right;
+}
+.block
+{
+  display: inline-block;
+}
+.cover
+{
+  background-image: url(../files/Switches.jpg);
+  height: width;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  background-position-x: center;
+  background-position-y: top;
+}
+.mrg1
+{
+  margin-left: 700px;
+}
+.cover2
+{
+  background-image: url(../files/Ethernet.jpg);
+  height: width;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  background-position-x: center;
+  background-position-y: top;
+}
+.ar
+{
+  margin: 0px auto;
+}
+.ey
+{
+  font-size: 50px;
+}
+.ay
+{
+  font-size: 30px;
+}
+.mn
+{
+  margin-top: -50px;
+}
+
+
+/*--others--*/
+body {
+  display: relative;
+}
+.header{
+  margin-left: 1%;
+}
+#sidebar {
+position: fixed;
+top: 23px;
+left: 0;
+bottom: 0;
+width: 18%;
+background-color: #f5f5f5;
+padding: 0px;
+overflow-y: scroll;
+}
+#table
+{
+  margin-left: 1%;
+}
+#sidebar .ui.menu {
+margin: 2em 0 0;
+font-size: 16px;
+}
+#sidebar .ui.menu > a.item {
+
+}
+#sidebar .ui.menu > a.item.active {
+color: white;
+border: none !important;
+}
+
+#content {
+margin-left: 18%;
+width: 81%;
+margin-top: 3em;
+padding-left: 3em;
+float: left;
+}
+#content > .ui.grid {
+padding-right: 4em;
+padding-bottom: 3em;
+}
+#content h1 {
+font-size: 36px;
+}
+#content .ui.divider:not(.hidden) {
+margin: 0;
+}
+#content table.ui.table {
+border: none;
+}
+#content table.ui.table thead th {
+border-bottom: 2px solid #eee !important;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background: rgb(44, 42, 42);
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+#sidebar::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.616);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 10px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background:black;
+  
+}
+
+.background1{
+  background-image: url(/assets/Special/cislogoC.png);
+  height: width;
+  background-attachment: absolute;
+  background-size: cover;
+  background-position: center top;
+  background-position-x: center;
+  background-position-y: top;
+  background-color: #000000;
+  width: 100%;
+  top: 0;
+  height: 450px;
+  z-index: 100;
+}
+#small
+{
+  font-size: 15px;
+}
+.customsegment{
+  width: 1200px;
+}

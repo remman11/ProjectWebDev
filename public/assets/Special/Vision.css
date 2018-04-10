@@ -1,0 +1,31 @@
+#master2{
+position: static;
+background-image: url(bckgrnd.png);
+width: 1100px;
+margin: 165px auto 120px auto;
+padding-bottom: 80px;
+height: auto;
+}
+.Headertxt{
+font-family: jockey one, sans-serif;
+font-size: 46px;
+color: yellow;
+padding-left: 50px;
+padding-top: 25px;
+}
+.subtxt{
+font-family: Helvetica, sans-serif;
+font-size: 16px;
+color: white;
+padding-left: 50px;
+padding-top: 10px; 
+line-height: 21px;
+}
+#lines{
+height: 2px;
+width: 1000px;
+margin: 70px auto 0px auto;
+background-color: yellow;
+position: static;
+padding-top: 
+}

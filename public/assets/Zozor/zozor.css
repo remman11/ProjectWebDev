@@ -1,0 +1,257 @@
+*{
+	margin: 0px auto;
+	border: 0px;
+	padding: 0px;
+
+}
+body
+{
+	
+}
+#button
+{
+	height: 30px;
+	width: 80px;
+	background-color: red;
+	color: white;
+	text-align: center;	
+	border-radius: 10px;
+}
+#ar
+{
+	padding-top: 5px;
+}
+#yey
+{
+	position: absolute;
+	padding-left: 800px;
+	top: 350px;
+}
+header
+{
+	height: 100px;
+	width: 900px;
+	border-radius: 10px;
+	
+}
+#id
+{
+	width: 500px;
+	display: inline-block;
+}
+#nav
+{
+
+	float: right;
+	border-radius: 3px;
+	margin-right: 270px;
+	
+
+}
+#banner{
+
+	margin-top: 3px;
+	height:	200px;
+	width: 900px;
+	border-radius: 10px;
+	box-shadow: 5px;
+	transition : width 2s, height, 2s;
+	-webkit-transition : width 2s, height, 2s;
+	-o-transition : width 2s, height, 2s;
+	-moz-transition : width 2s, height, 2s;
+}
+#pin
+{
+	height: 200px;
+	width: 100%;
+	transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+} 
+.pop:hover
+{
+	height: 400px;
+	width: 100%;
+}
+#ban
+{
+	height:200px;
+	width: 900px;
+	background-image: url(bridge.png);
+	background-position: center bottom;
+	background-position-x: center;
+	background-position-y: bottom;
+	height: width;
+	
+}
+
+#art
+{
+	height: 200px;
+	width: 150px;
+}
+#ye
+{
+	list-style-type: none;
+	text-decoration: none;
+}
+#ye li{
+	display: inline;
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+section
+{
+	position: static;
+	height: 500px;
+	width: 900px;
+	
+	border-radius: 10px;
+	box-shadow: 5px;
+	margin-top: 100px;
+	
+}
+#arti
+{
+	height: 490px;
+	width: 600px;
+	float: left;
+	
+	border-radius: 10px
+	margin-left: 2px;
+	margin-top: 2px;
+	display: block;	
+}
+/**#lorem
+{
+	text-align: center;
+	margin: 0px auto;
+}**/
+aside
+{
+	position: static;
+	float: right;
+	height: 470px;
+	width: 280px;
+	
+	border-radius: 10px;
+	margin-right: 2px;
+	margin-top: 3px;
+	background-color: gray;
+	color: white;
+}
+footer
+{
+	height: 160px;
+	width: 900px;
+	
+	border-radius: 10px;
+	box-shadow: 5px;
+	margin-top: 2px;
+	
+}
+#hi{
+	margin-top: 30px;
+}
+.yon
+{
+	text-align: center;
+}
+#one{
+	height: 130px;
+	width: 260px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: blue;
+	border-radius: 10px;
+	box-shadow: 5px;
+	margin-top: 20px;
+	margin-left: 3px;
+	float: left;
+	font-family: Sans-serif;
+	
+}
+#two
+{
+	height: 130px;
+	width: 280px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: blue;
+	border-radius: 10px;
+	box-shadow: 5px;
+	margin-top: 20px;
+	margin-left: 3px;
+	float: left;
+	font-family: Sans-serif
+}
+#three{
+	height: 130px;
+	width: 260px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: blue;
+	border-radius: 10px;
+	box-shadow: 5px;
+	margin-top: 20px;
+	margin-left: 3px;
+	float: left;
+}
+#wan
+{
+	list-style-type: arrow;
+	float: left;	
+	margin-top: 20px;
+	margin-left: 2px;
+}
+#pine :hover
+{
+	height: 350px;
+}
+#social
+{
+	margin: 50px 0px 0px 5px;
+}
+#banner a:hover
+{
+	height: 300px;
+	width: 100%;
+}
+.yon{
+	font-family: Comic sans ms;
+	font-weight: bold;
+	font-size:	15px;
+}
+aside a img : hover
+{
+	height: 500px;
+	width: 200px;
+}
+
+.active
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+#lore{
+	display: inline-block;
+}
+#holder
+{
+	float: left;
+	list-style-type: none;
+}
+#info
+{
+	font-family: Arial;
+	font-size: 20px;
+	list-style-type: none;
+}
+footer
+{
+	position: static;
+}
