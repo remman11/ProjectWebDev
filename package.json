@@ -4,6 +4,10 @@
   "description": "A quick and simple ExpressJS boilerplate",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
+=======
+    "start": "node index.js",
+>>>>>>> 3fb7a6b35ae996da247211ecfa2550629a8967f5
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
