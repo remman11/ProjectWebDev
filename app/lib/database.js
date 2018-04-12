@@ -24,10 +24,10 @@ module.exports = () => {
      * from process.env. Check your .env file. :)
      */
     pool = mysql.createPool({
-        host: sql12.freemysqlhosting.net,
-        user: sql12231850,
-        password: PPIESjyWaF,
-        database: sql12231850
+        host: `sql12.freemysqlhosting.net`,
+        user: `sql12231850`,
+        password: `PPIESjyWaF`,
+        database: `sql12231850`
     });
 
     /**
